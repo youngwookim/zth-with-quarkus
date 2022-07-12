@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  quarkus:
+    container_name: quarkus
+    image: 1110551/code-with-quarkus:1.0.0-SNAPSHOT
+    restart: always
+    ports:
+      - 8080:8080
